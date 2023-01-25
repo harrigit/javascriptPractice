@@ -46,5 +46,5 @@ console.log(y)
 let f = false,
     t = true;
 
-console.log(+f); // 0
-console.log(+t); // 1
+console.log(+f); 
+console.log(+t); 
