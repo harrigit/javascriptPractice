@@ -48,3 +48,16 @@ let f = false,
 
 console.log(+f); 
 console.log(+t); 
+
+
+let z = 10, 
+    b = 20; 
+
+console.log(z >= b);  // false
+console.log(z == 10); // true
+
+
+let name1="Haris Niazi",
+Name2 ="Uzair Nadeem"
+console.log(Name2>name1)
+
