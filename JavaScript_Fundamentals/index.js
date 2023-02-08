@@ -163,26 +163,51 @@ console.log(typeof p);
 //Switch Statement In JS
 console.log("Switch Statement In JS");
 const marks = Number(prompt("Enter Your Marks="));
-switch (marks) {
-  case 400:
-
+console.log(typeof marks);
+switch (true) {
+  case marks <= 500 && marks >= 400:
     console.log("Excellent Work Haris");
-
     break;
-  case 350:
+  case marks <= 399 && marks >= 350:
 
     console.log("Good Work Haris");
 
     break;
-  case 300:
+  case marks <= 349 && marks >= 300:
 
     console.log("Normals Marks Haris");
 
     break;
-  case 200:
+  case marks <= 299 && marks >= 0:
 
     console.log("Haris You Are Fail");
 
     break;
 
+}
+
+//Practice Question Check The Input Number is Divisilble by 2 and 3
+
+
+console.log("Practice Question Check The Input Number is Divisilble by 2 and 3");
+const check = Number(prompt("Input Number for Check="));
+switch (true) {
+  case check % 2 == 0 && check % 3 == 0:
+    console.log("This Number is Divisibe by both 2 and 3");
+    break;
+  case check % 2 == 0:
+    console.log("This Number is Divisible by 2")
+    break;
+  case check % 3 == 0:
+    console.log("This Number is divisible by 3");
+    break;
+  default:
+    console.log("This Number is Neither Divisile by 2 nor 3 ");
+
+}
+
+//Loops In JS
+console.log("Loops In JS ");
+for (let lo = 0; lo < 5; lo++) {
+  console.log(lo);
 }
