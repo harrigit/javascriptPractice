@@ -55,3 +55,21 @@ do {
   k++;
 } while (k <= f)
 console.log(fac);
+
+//FUnction IN JS
+console.log("Function In JS");
+function avg(a,b,c){
+  let z=(a+b+c)/3;
+  console.log(z);
+}
+avg(3,5,10)
+
+let marksS = {
+  Haris: 34,
+  Hashir: 33,
+  Zarar: 30,
+  Aizan: 31
+}
+for (let a in marksS) {
+  console.log(a, marksS[a]);
+}
