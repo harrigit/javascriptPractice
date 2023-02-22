@@ -67,3 +67,33 @@ let child = slice1.slice(3, 6);
 //index 3 sa 6 tak new array bna da ga 
 console.log(slice1)
 console.log(child)
+
+
+///Map() Method  In js
+let map1=[30,40,50,60]
+let a=map1.map((value,index,array)=>{
+  console.log(value,index,array)
+  return value;
+})
+console.log(a);
+
+//Filter Method In js
+
+let filter1=[30,40,50,60]
+let b=filter1.filter((value)=>{
+  console.log(value)
+return value>30;
+})
+console.log(b);
+
+
+//Array Reduce method in Js
+
+let reduce = [30,50,60,80]
+let c=reduce.reduce((value1,value2)=>{
+  return value1 + value2;
+  
+})
+console.log(reduce);
+console.log(c);
+
