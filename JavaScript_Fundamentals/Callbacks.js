@@ -7,10 +7,10 @@ console.log(a,b);
 
 //Asyncronized programming Example 
 console.log("I am Waiting for 5 Second");
-setTimeout(function() {
+setTimeout(function () {
     console.log("wait Complete ");
 }, 5000);
-
+console.log("after set timeout")
 
 //CallBacks In Js 
 const message=()=>{
@@ -21,3 +21,4 @@ setTimeout(message, 10000);
 setTimeout(() => { 
     console.log("This message is shown after 3 seconds");
 }, 3000);
+

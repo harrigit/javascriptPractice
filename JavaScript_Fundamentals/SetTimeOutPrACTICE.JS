@@ -6,4 +6,4 @@ function Done() {
     console.log("Done");
     
 }
-setTimeout(Done,1000)//phala ya chala ga Phor Upar wala Checking wala Chala Ga 
+setTimeout(Done,1000)//phala ya chala ga Phir Upar wala Checking wala Chala Ga 
