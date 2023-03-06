@@ -5,7 +5,7 @@ Say("Hello Ustad!")
 
 
 
-function Add(num1 , num2) {
+ function Add(num1 , num2) {
     let x=num1+ num2;
     console.log(x);
     
