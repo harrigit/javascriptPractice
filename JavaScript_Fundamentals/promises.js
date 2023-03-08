@@ -1,15 +1,21 @@
-let complete=false;
-let prom = new Promise((resolve,reject)=>{
-    if (complete){
-        resolve();
-        console.log("Fullfilled Complete");
-    }
-    else{
-        reject();
-        console.log("Fullfilled Not Complete");
-
-    }
-    //prom.catch();
+const myPromise = new Promise((resolve, reject) => {
+    // Simulate making a network request
+    setTimeout(() => {
+      const data = {
+        name: "John",
+        age: 30,
+      };
+      // If the request is successful, resolve the Promise with the data
+      resolve(data);
+    }, 2000);
+  });
   
-;})
-console.log(prom);
+  // Handle the resolved value with then()
+  myPromise.then((data) => {
+    console.log(data);
+  });
+  
+  // Handle errors with catch()
+  myPromise.catch((error) => {
+    console.error(error);
+  });
