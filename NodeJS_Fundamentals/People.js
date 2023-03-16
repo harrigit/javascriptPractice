@@ -9,3 +9,14 @@ const Ages= [24,25,23,29,27,23,24];
 module.exports={
     People,Ages
 }
+
+
+
+ const Scale=[16,22,33,44,56,66,88];
+ const Devlopers=["Uzair ","Sabor","Waqar","Ahmad","Hassan"];
+
+
+
+ module.exports={
+    Scale,Devlopers
+ }
