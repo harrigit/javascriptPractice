@@ -96,4 +96,3 @@ let c=reduce.reduce((value1,value2)=>{
 })
 console.log(reduce);
 console.log(c);
-
