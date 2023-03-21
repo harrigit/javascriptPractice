@@ -1,0 +1,17 @@
+{
+    "name": "Muhammad Haris Khan",
+    "age": 24,
+    "address": {
+        
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "30000"
+    },
+    "phone_numbers": [
+        {
+            "type": "Work",
+            "number": "23483746464"
+        }
+    ]
+
+    }
