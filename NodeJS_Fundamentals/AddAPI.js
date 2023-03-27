@@ -2,6 +2,7 @@ const http = require('http');
 const url = require('url');
 
 const server = http.createServer((req, res) => {
+    console.log(req,url)
   const { pathname, query } = url.parse(req.url, true);
   const { num1, num2 ,Name} = query;
 
