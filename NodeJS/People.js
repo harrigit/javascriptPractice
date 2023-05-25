@@ -7,4 +7,4 @@ module.exports=arrayOfPeoples;
 //now This Is Accessing Both array In Module File
 module.exports={
     arrayOfPeoples,ages
-};//
+};//dmsf mvd,
